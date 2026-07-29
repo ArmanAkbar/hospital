@@ -163,42 +163,72 @@ header{
         text-align:center;
     }
 }
-.hero{
+.main{
     width:100%;
     height:100vh;
-    background:url("back.webp") center center/cover no-repeat;
+    background:url("images/back.webp") center center/cover no-repeat;
     display:flex;
     align-items:center;
     padding:0 7%;
 }
 .hero-box{
-    width:40%;
-    max-width:500px;
-    padding:20px 25px;   /* Pehle 50px tha */
-    margin-top:20px;
-    border-radius:15px;
-    background:rgba(255,255,255,.85);
+     margin-top:-60%;
+    width:500px;
+    max-width:100%;
+    background:rgba(255,255,255,0.92);
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,.2);
 }
 
 .hero-box h4{
-    font-size:18px;
-    margin-bottom:10px;
+    color:#00B4CA;
+    font-size:20px;
+    margin-bottom:15px;
+    font-weight:600;
 }
 
 .hero-box h1{
-    color: #346bae;
-    font-size:42px;
-    line-height:1.15;
-    margin-bottom:20px;   /* Pehle 45px tha */
+    font-size:52px;
+    line-height:1.2;
+    color:#222;
+    margin-bottom:30px;
+    font-weight:700;
 }
 
 .hero-btn{
     display:flex;
-    gap:18px;
-    margin-top:25px;
+    gap:15px;
     flex-wrap:wrap;
 }
 
+.btn1,
+.btn2{
+    padding:15px 30px;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn1{
+    background:#0d6efd;
+    color:#fff;
+}
+
+.btn1:hover{
+    background:#084298;
+}
+
+.btn2{
+    border:2px solid #0d6efd;
+    color:#0d6efd;
+}
+
+.btn2:hover{
+    background:#0d6efd;
+    color:#fff;
+}
 .btn1,
 .btn2{
     display:flex;
